@@ -1,0 +1,17 @@
+a1=eval(input("Enter user First number\n"))# Here we write code user give your number and we use eval in this becoz of we don't user give number int of float that's why we sue this.
+a2=eval(input("Enter user second number\n"))
+a3=eval(input("Enter user third number\n"))
+a4=eval(input("Enter user fourth number\n"))
+a5=eval(input("Enter user five number\n"))
+a6=eval(input("Enter user six number\n"))
+a7=eval(input("Enteruser sevenh number\n"))
+a8=eval(input("Enter user eight number\n"))
+a9=eval(input("Enter user ninth number\n"))
+a10=eval(input("Enter user tenth number\n"))
+numberlist=[a1,a2,a3,a4,a5,a6,a7,a8,a9,a10] #here we store the all number in  list.
+for numberlist in range(10):
+  if(numberlist%2==0):
+        print("Even number")
+        break
+  else:
+        print("none")
